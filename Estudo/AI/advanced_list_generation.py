@@ -2,6 +2,7 @@ import openai
 import re
 import getpass
 import json
+import yaml
 
 openai.api_key = getpass.getpass("Please enter your OpenAI Key:")
 
