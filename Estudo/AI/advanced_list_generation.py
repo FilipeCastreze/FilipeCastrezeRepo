@@ -8,7 +8,7 @@ openai.api_key = getpass.getpass("Please enter your OpenAI Key:")
 
 def complete(prompt):
     response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-2024-08-06",
         messages=[
             {
             "role": "user",
